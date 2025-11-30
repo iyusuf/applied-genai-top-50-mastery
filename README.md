@@ -49,7 +49,6 @@ It is directly aligned with the practitioner's active projects: Unanet PLM autom
 ### **B. Function Calling & Tooling (6)**
 
 9. OpenAI function calling mastery
-9.a [basic-function-call](./micro-labs/09-function-calling-basics/01-basic-function-call-aim-maap-evv..md)
 10. MCP tool development (local + cloud)
 11. Python tool-server for ChatGPT Web
 12. Exposing local RAG as MCP tools

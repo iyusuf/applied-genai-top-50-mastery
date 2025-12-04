@@ -32,7 +32,8 @@ def call_add_via_tool(a: int, b: int):
     """Helper: run the whole tool-calling flow and return (tool_call, final_message)."""
     user_message = {
         "role": "user",
-        "content": f"Use the add tool to add {a} and {b}, then tell me the result."
+        # "content": f"Use the add tool to add {a} and {b}, then tell me the result."
+        "content": "What is the capital of France?"
     }
 
     first = client.chat.completions.create(

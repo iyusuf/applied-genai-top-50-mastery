@@ -36,7 +36,8 @@ tools = [
 
 def main():
     # user_message = {"role": "user", "content": "Add 3 and 5"}
-    user_message = {"role": "user", "content": "Use the add tool that I (Iqbal) described in tools=[...]. with 40 and 30"}
+    # user_message = {"role": "user", "content": "Use the add tool that I (Iqbal) described in tools=[...]. with 40 and 30"}
+    user_message = {"role": "user", "content": "Use the add tool that I (Iqbal) described in tools=[...]. with 12 and 12"}
 
     first_response = client.chat.completions.create(
         model="gpt-4.1",
